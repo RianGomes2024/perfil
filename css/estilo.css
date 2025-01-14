@@ -1,0 +1,110 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+    
+}
+h1{
+    position: absolute;
+    text-align: center;
+    left: 43%;
+    color: aliceblue;
+    font-size: xxx-large;
+    text-decoration: underline;
+    box-shadow: 3px 3px 3px rgb(250, 0, 0);
+   
+}
+img{
+    width: 30%;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    box-shadow: 3px 3px 15px rgb(250, 0, 0);
+}
+video{
+   position: absolute;
+   top: 0%;
+   left: 0%;
+}
+.introducao{
+    position: absolute;
+    top: 55%;
+    text-align: justify;
+    width: 20%;
+    left: 5%;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+}
+.habilidades{
+    position: absolute;
+    left: 68%;
+    box-shadow: 3px 3px 15px rgb(0, 255, 42);
+
+}
+.minhashb{
+    position: absolute;
+    left: 73%;
+    top: 55%;
+    color: aliceblue;
+    text-align: justify;
+    width: 20%;
+    font-size: xx-large;
+}
+.meio{
+    width: 17%;
+    position: absolute;
+    top: 27%;
+    left: 42%;
+}
+.linha1{
+    position: absolute;
+    height: 1%;
+    width: 20%;
+    left: 40%;
+    top: 22%;
+    background: black;
+    box-shadow: 3px 3px 15px rgb(250, 0, 0);
+}
+.linha2{
+    position: absolute;
+    height: 1%;
+    width: 20%;
+    left: 40%;
+    top: 88%;
+    background: rgb(0, 0, 0);
+    box-shadow: 3px 3px 15px rgb(255, 34, 34);
+    
+}
+@media(max-width:750px){
+       h1{
+        font-size: larger;        
+       }
+       .introducao{
+        font-size: 16px;
+        position: absolute;
+        top: 35%;
+        left: 2%;
+        width:40% ;
+        
+    
+       }
+       .minhashb{
+        font-size: 15px;
+        position: absolute;
+        top: 36%;
+        width: 38%;
+        left: 61%;
+       }
+       .meio{
+        position: absolute;
+        top: 65%;
+       }
+       .linha1{
+        position: absolute;
+        top: 61%;
+        left: 41%;
+       }
+       img{
+        position: absolute;
+        left: 5%;
+       }
+}
